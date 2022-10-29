@@ -14,7 +14,7 @@ from pathlib import Path
 export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
 export_file_name = 'export.pkl'
 
-classes = ['dachshund', 'labrador', 'poodle']
+classes = ['dachshunds', 'labrador', 'poodle']
 path = Path(__file__).parent
 
 app = Starlette()
